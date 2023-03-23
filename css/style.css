@@ -1,0 +1,73 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    background-color: #000;
+    height: 50px;
+    text-align: right;
+    padding-top: 7px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header span {
+    font-size: 13px;
+    background-color: #4a4a4a;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 3px 4px;
+}
+
+
+/* footer */
+footer {
+    height: 60px;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.flex {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.video-control.flex {
+    justify-content: flex-start;
+}
+
+.exit {
+    text-align: right;
+}
+
+.video-control, .exit {
+    width: 25%;
+}
+
+.general-control {
+    width: 50%;
+}
+
+.icon {
+    text-align: center;
+}
