@@ -64,11 +64,12 @@ img {
 }
 
 .name {
-    background-color: #4a4a4a;
+    background-color: rgba(0, 0, 0, .3);
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 12px;
+    font-size: 10px;
+    padding: 2px;
 }
 
 
