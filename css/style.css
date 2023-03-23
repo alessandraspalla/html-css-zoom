@@ -36,7 +36,7 @@ header span {
 
 /* footer */
 footer {
-    height: 60px;
+    height: 50px;
     background-color: #222222;
     position: fixed;
     bottom: 0;
@@ -45,29 +45,47 @@ footer {
 }
 
 .flex {
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 7px;
 }
 
 .video-control.flex {
-    justify-content: flex-start;
+    width: 10%;
+    justify-content: center;
+    gap: 10px;
 }
 
-.exit {
-    text-align: right;
-}
-
-.video-control, .exit {
-    width: 25%;
-}
-
-.general-control {
-    width: 50%;
+.general-control.flex {
+    width: 80%;
+    justify-content: center;
+    gap: 15px;
 }
 
 .icon {
+    text-align: center;
+}
+
+.icon > a, 
+.exit, 
+i.fa-angle-up {
+    font-size: 10px;
+}
+
+a > i {
+    font-size: 15px;
+}
+
+.fa-share-from-square.green {
+    color: #4bc800;
+}
+
+.exit {
+    color: red;
+    background-color: #4a4a4a;
+    height: 50px;
+    line-height: 50px;
+    width: 7%;
     text-align: center;
 }
