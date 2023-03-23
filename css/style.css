@@ -23,6 +23,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 999;
 }
 
 header span {
@@ -31,6 +32,43 @@ header span {
     border-radius: 3px;
     margin: 5px;
     padding: 3px 4px;
+}
+
+/* main style */
+main {
+    background-color: #000;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.flex-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 150px;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    background-color: #4a4a4a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
 }
 
 
